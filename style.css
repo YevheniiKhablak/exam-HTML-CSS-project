@@ -1,0 +1,9 @@
+.conteiner {
+  max-width: 640px;
+  max-height: 3388px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
