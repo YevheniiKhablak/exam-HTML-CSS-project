@@ -1,7 +1,23 @@
-.conteiner {
-    
+.conteiner {    
     max-width: 640px;
     max-height: 3388px;
     margin: 0 auto;
     display: flex;
+
+    .logo {
+        width: 180px;
+        height: 50px;
+        margin-left: 80px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .head-test {
+        font-size: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-family: mulish;
+        font-weight: lighter;
+        color: #11223f;
+    }
 }
