@@ -1,8 +1,18 @@
+body {
+    background: url(images/background-decor-mobile.png);
+}
+
 .conteiner {    
-    max-width: 640px;
+    
+    max-width: 960px;
     max-height: 3388px;
     margin: 0 auto;
-    display: flex;
+    display: block;
+
+   
+    .first-screen {
+        margin: 0 auto;
+    }
 
     .logo {
         width: 180px;
@@ -16,8 +26,224 @@
         font-size: 40px;
         margin-left: 80px;
         margin-right: 80px;
-        font-family: mulish;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        font-family: 'Mulish', sans-serif;
         font-weight: lighter;
-        color: #11223f;
+        color: #172b4d;
+        line-height: 60px;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 1.5;
     }
+
+    .description {
+        font-size: 20px;
+        color: #11223f;
+        font-family: 'Mulish', sans-serif;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 40px;
+        line-height: 40px;
+    }
+
+    .button1 {
+        background: #1968fc;
+        width: 300px;
+        height: 50px;
+        margin-left: 80px;
+        margin-bottom: 80px;
+        border: 0px;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Mulish', sans-serif;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-stretch: inherit;
+    }
+
+    .illuststiion {
+        width: 600px;        
+    }    
+}
+
+.second-screen {
+    background: #1968fc;
+    height: 180px;
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+    .par1 {
+        width: 640px;
+        margin: 0 auto;
+        height: 180px;
+        padding-top: 42px;
+
+        .PleaseVisit {
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Mulish';
+            color: #ffffff;
+            line-height: 2;
+            margin: 0;
+            vertical-align: middle;
+            padding: 0 60px 0 60px;
+        }
+
+    }
+}
+
+.third-screen {
+    margin-bottom: 180px;
+
+    .display {
+        display: flex
+    }
+
+    .personal-card {
+        width: 540px;
+        height: 280px;
+        background: #ffffff;
+
+        .about {
+            font-size: 16px;
+            font-family: 'Mulish';
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    }
+    .personal-data {
+        display: flex;
+        justify-content: space-between;
+
+        .photo {
+            width: 100px;
+            height: 100px;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+        .com {
+            width: 100px;
+            height: 100px;
+            padding-top: 10px;
+        }
+
+        .name {
+            margin: 0;
+            padding-top: 60px;
+            padding-left: 20px;
+            font-size: 18px;
+            color: #11223f;
+            font-family: 'Mulish';
+        }
+
+        .position {
+            color: #1967fa;
+            font-size: 14px;
+            font-family: 'Mulish';
+            padding-left: 20px;
+        }
+    }
+}
+
+.rs-screen {
+   .features {
+    font-size: 30px;
+    font-family: 'Mulish';
+    color: #11223f;
+    margin-left: 60px;
+    margin-bottom: 10px;
+   }
+   .line {
+       width: 80px;
+       height: 2px;
+       background: #1967fa;
+       margin-left: 60px;
+       margin-bottom: 48px;
+   }
+
+
+    
+    .stnd-boxes {
+        display: inline-flex;
+    }
+   
+   .box {
+       width: 420px;
+       height: 200px;
+        box-shadow: 8px 20px 40px 5px #acb8ce;
+        margin-bottom: 80px;
+        margin-left: 60px;
+
+       .content-box {
+        background-color: #f3f7ff;
+        display: flex;
+        margin-bottom: 0px;
+
+           .blue-box {
+               width: 80px;
+               height: 80px;
+               background:  #1967fa;
+
+               .icon {
+                width: 40px;
+                padding: 20px;
+               }
+           }
+           .pixelp {
+               font-size: 20px;
+               font-family: 'Mulish';
+               margin: 20px;
+               color: #11223f;
+               padding-top: 10px;
+           }
+       }
+       .white-box {
+           background: #ffffff;
+           height: 120px;
+           margin-top: 0px;
+           .crisp {
+               font-size: 16px;
+               font-family: 'Mulish';
+               color: #11223f;
+               margin-left: 40px;
+               margin-top: 0px;
+               padding-top: 40px;
+               margin-right: 40px;
+               
+           }
+       }
+   }
+
+   .all-vocations{
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .vocations {
+       width: 250px;
+       height: 190px;
+       box-shadow: 8px 20px 40px 5px #acb8ce;
+       margin: 30px;
+
+       .voc-name {
+        font-size: 20px;
+        color: #1967fa;
+        font-family: 'Mulish';
+        padding: 20px;
+       }
+       .voc-description {
+        font-size: 16px;
+        font-family: 'Mulish';
+        margin-left: 20px;
+        color: #11223f;
+       }
+
+       
+
+   }
 }
