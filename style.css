@@ -1,9 +1,267 @@
-.conteiner {
-  max-width: 640px;
-  max-height: 3388px;
+body {
+  background: url(images/background-decor-mobile.png);
+  margin: 0;
+}
+
+header {
+  max-width: 960px;
   margin: 0 auto;
+}
+
+header .logo {
+  width: 180px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.conteiner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+.conteiner .first-screen {
+  margin: 0 auto;
+}
+
+.conteiner .header {
+  font-size: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: lighter;
+  color: #172b4d;
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.conteiner .description {
+  font-size: 20px;
+  color: #11223f;
+  font-family: 'Mulish', sans-serif;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  line-height: 40px;
+}
+
+.conteiner .primary-button {
+  background: #1968fc;
+  width: 300px;
+  height: 50px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  border: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Mulish', sans-serif;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-stretch: inherit;
+}
+
+.conteiner .illuststiion {
+  width: 600px;
+}
+
+.second-screen {
+  background: #1968fc;
+  height: 180px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.second-screen .part-one {
+  width: 640px;
+  margin: 0 auto;
+  height: 180px;
+  padding-top: 42px;
+}
+
+.second-screen .part-one .please-visit {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Mulish';
+  color: #ffffff;
+  line-height: 2;
+  margin: 0;
+  vertical-align: middle;
+  padding: 0 60px 0 60px;
+}
+
+.third-screen {
+  margin-bottom: 180px;
+}
+
+.third-screen .visability {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.third-screen .personal-card {
+  width: 540px;
+  height: 280px;
+  background: #ffffff;
+}
+
+.third-screen .personal-card .about {
+  font-size: 16px;
+  font-family: 'Mulish';
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.third-screen .personal-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.third-screen .personal-data .photo {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.third-screen .personal-data .com {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.third-screen .personal-data .person-name {
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 20px;
+  font-size: 18px;
+  color: #11223f;
+  font-family: 'Mulish';
+}
+
+.third-screen .personal-data .position {
+  color: #1967fa;
+  font-size: 14px;
+  font-family: 'Mulish';
+  padding-left: 20px;
+}
+
+.fourth-screen .block-name {
+  font-size: 30px;
+  font-family: 'Mulish';
+  color: #11223f;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.fourth-screen .line {
+  width: 80px;
+  height: 2px;
+  background: #1967fa;
+  margin-left: 60px;
+  margin-bottom: 48px;
+}
+
+.fourth-screen .first-second-boxes {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.fourth-screen .box {
+  width: 420px;
+  height: 200px;
+  -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
+          box-shadow: 8px 20px 40px 5px #acb8ce;
+  margin-bottom: 80px;
+  margin-left: 60px;
+}
+
+.fourth-screen .box .content-box {
+  background-color: #f3f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.fourth-screen .box .content-box .blue-box {
+  width: 80px;
+  height: 80px;
+  background: #1967fa;
+}
+
+.fourth-screen .box .content-box .blue-box .icon {
+  width: 40px;
+  padding: 20px;
+}
+
+.fourth-screen .box .content-box .box-name {
+  font-size: 20px;
+  font-family: 'Mulish';
+  margin: 20px;
+  color: #11223f;
+  padding-top: 10px;
+}
+
+.fourth-screen .box .white-box {
+  background: #ffffff;
+  height: 120px;
+  margin-top: 0px;
+}
+
+.fourth-screen .box .white-box .crisp {
+  font-size: 16px;
+  font-family: 'Mulish';
+  color: #11223f;
+  margin-left: 40px;
+  margin-top: 0px;
+  padding-top: 40px;
+  margin-right: 40px;
+}
+
+.fourth-screen .all-vocations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fourth-screen .vocation {
+  width: 250px;
+  height: 190px;
+  -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
+          box-shadow: 8px 20px 40px 5px #acb8ce;
+  margin: 30px;
+}
+
+.fourth-screen .vocation .voc-name {
+  font-size: 20px;
+  color: #1967fa;
+  font-family: 'Mulish';
+  padding: 20px;
+}
+
+.fourth-screen .vocation .voc-description {
+  font-size: 16px;
+  font-family: 'Mulish';
+  margin-left: 20px;
+  color: #11223f;
 }
 /*# sourceMappingURL=style.css.map */
