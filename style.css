@@ -1,5 +1,19 @@
 body {
   background: url(images/background-decor-mobile.png);
+  margin: 0;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header .logo {
+  width: 180px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .conteiner {
@@ -13,15 +27,7 @@ body {
   margin: 0 auto;
 }
 
-.conteiner .logo {
-  width: 180px;
-  height: 50px;
-  margin-left: 80px;
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
-
-.conteiner .head-test {
+.conteiner .header {
   font-size: 40px;
   margin-left: 80px;
   margin-right: 80px;
@@ -47,7 +53,7 @@ body {
   line-height: 40px;
 }
 
-.conteiner .button1 {
+.conteiner .primary-button {
   background: #1968fc;
   width: 300px;
   height: 50px;
@@ -156,7 +162,7 @@ body {
   padding-left: 20px;
 }
 
-.rs-screen .features {
+.rs-screen .block-name {
   font-size: 30px;
   font-family: 'Mulish';
   color: #11223f;
@@ -172,7 +178,7 @@ body {
   margin-bottom: 48px;
 }
 
-.rs-screen .stnd-boxes {
+.rs-screen .first-second-boxes {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -206,7 +212,7 @@ body {
   padding: 20px;
 }
 
-.rs-screen .box .content-box .pixelp {
+.rs-screen .box .content-box .box-name {
   font-size: 20px;
   font-family: 'Mulish';
   margin: 20px;
@@ -238,7 +244,7 @@ body {
       flex-wrap: wrap;
 }
 
-.rs-screen .vocations {
+.rs-screen .vocation {
   width: 250px;
   height: 190px;
   -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
@@ -246,14 +252,14 @@ body {
   margin: 30px;
 }
 
-.rs-screen .vocations .voc-name {
+.rs-screen .vocation .voc-name {
   font-size: 20px;
   color: #1967fa;
   font-family: 'Mulish';
   padding: 20px;
 }
 
-.rs-screen .vocations .voc-description {
+.rs-screen .vocation .voc-description {
   font-size: 16px;
   font-family: 'Mulish';
   margin-left: 20px;

@@ -1,5 +1,19 @@
 body {
     background: url(images/background-decor-mobile.png);
+    margin: 0;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    
+    .logo {
+        width: 180px;
+        height: 50px;
+        margin-left: 80px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
 }
 
 .conteiner {    
@@ -14,15 +28,9 @@ body {
         margin: 0 auto;
     }
 
-    .logo {
-        width: 180px;
-        height: 50px;
-        margin-left: 80px;
-        margin-top: 40px;
-        margin-bottom: 80px;
-    }
+    
 
-    .head-test {
+    .header {
         font-size: 40px;
         margin-left: 80px;
         margin-right: 80px;
@@ -48,7 +56,7 @@ body {
         line-height: 40px;
     }
 
-    .button1 {
+    .primary-button {
         background: #1968fc;
         width: 300px;
         height: 50px;
@@ -151,7 +159,7 @@ body {
 }
 
 .rs-screen {
-   .features {
+   .block-name {
     font-size: 30px;
     font-family: 'Mulish';
     color: #11223f;
@@ -168,7 +176,7 @@ body {
 
 
     
-    .stnd-boxes {
+    .first-second-boxes {
         display: inline-flex;
     }
    
@@ -194,7 +202,7 @@ body {
                 padding: 20px;
                }
            }
-           .pixelp {
+           .box-name {
                font-size: 20px;
                font-family: 'Mulish';
                margin: 20px;
@@ -224,7 +232,7 @@ body {
        flex-wrap: wrap;
    }
 
-   .vocations {
+   .vocation {
        width: 250px;
        height: 190px;
        box-shadow: 8px 20px 40px 5px #acb8ce;
