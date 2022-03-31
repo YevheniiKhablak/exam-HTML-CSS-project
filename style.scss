@@ -19,7 +19,6 @@ header {
 .conteiner {    
     
     max-width: 960px;
-    max-height: 3388px;
     margin: 0 auto;
     display: block;
 
@@ -84,13 +83,13 @@ header {
     width: 100%;
     margin-bottom: 50px;
 
-    .par1 {
+    .part-one {
         width: 640px;
         margin: 0 auto;
         height: 180px;
         padding-top: 42px;
 
-        .PleaseVisit {
+        .please-visit {
             text-align: center;
             font-size: 24px;
             font-family: 'Mulish';
@@ -107,8 +106,8 @@ header {
 .third-screen {
     margin-bottom: 180px;
 
-    .display {
-        display: flex
+    .visability {
+        display: flex;
     }
 
     .personal-card {
@@ -140,7 +139,7 @@ header {
             padding-top: 10px;
         }
 
-        .name {
+        .person-name {
             margin: 0;
             padding-top: 60px;
             padding-left: 20px;
@@ -158,7 +157,7 @@ header {
     }
 }
 
-.rs-screen {
+.fourth-screen {
    .block-name {
     font-size: 30px;
     font-family: 'Mulish';

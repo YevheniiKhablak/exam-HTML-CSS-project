@@ -18,7 +18,6 @@ header .logo {
 
 .conteiner {
   max-width: 960px;
-  max-height: 3388px;
   margin: 0 auto;
   display: block;
 }
@@ -83,14 +82,14 @@ header .logo {
   margin-bottom: 50px;
 }
 
-.second-screen .par1 {
+.second-screen .part-one {
   width: 640px;
   margin: 0 auto;
   height: 180px;
   padding-top: 42px;
 }
 
-.second-screen .par1 .PleaseVisit {
+.second-screen .part-one .please-visit {
   text-align: center;
   font-size: 24px;
   font-family: 'Mulish';
@@ -105,7 +104,7 @@ header .logo {
   margin-bottom: 180px;
 }
 
-.third-screen .display {
+.third-screen .visability {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,7 +145,7 @@ header .logo {
   padding-top: 10px;
 }
 
-.third-screen .personal-data .name {
+.third-screen .personal-data .person-name {
   margin: 0;
   padding-top: 60px;
   padding-left: 20px;
@@ -162,7 +161,7 @@ header .logo {
   padding-left: 20px;
 }
 
-.rs-screen .block-name {
+.fourth-screen .block-name {
   font-size: 30px;
   font-family: 'Mulish';
   color: #11223f;
@@ -170,7 +169,7 @@ header .logo {
   margin-bottom: 10px;
 }
 
-.rs-screen .line {
+.fourth-screen .line {
   width: 80px;
   height: 2px;
   background: #1967fa;
@@ -178,13 +177,13 @@ header .logo {
   margin-bottom: 48px;
 }
 
-.rs-screen .first-second-boxes {
+.fourth-screen .first-second-boxes {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.rs-screen .box {
+.fourth-screen .box {
   width: 420px;
   height: 200px;
   -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
@@ -193,7 +192,7 @@ header .logo {
   margin-left: 60px;
 }
 
-.rs-screen .box .content-box {
+.fourth-screen .box .content-box {
   background-color: #f3f7ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,18 +200,18 @@ header .logo {
   margin-bottom: 0px;
 }
 
-.rs-screen .box .content-box .blue-box {
+.fourth-screen .box .content-box .blue-box {
   width: 80px;
   height: 80px;
   background: #1967fa;
 }
 
-.rs-screen .box .content-box .blue-box .icon {
+.fourth-screen .box .content-box .blue-box .icon {
   width: 40px;
   padding: 20px;
 }
 
-.rs-screen .box .content-box .box-name {
+.fourth-screen .box .content-box .box-name {
   font-size: 20px;
   font-family: 'Mulish';
   margin: 20px;
@@ -220,13 +219,13 @@ header .logo {
   padding-top: 10px;
 }
 
-.rs-screen .box .white-box {
+.fourth-screen .box .white-box {
   background: #ffffff;
   height: 120px;
   margin-top: 0px;
 }
 
-.rs-screen .box .white-box .crisp {
+.fourth-screen .box .white-box .crisp {
   font-size: 16px;
   font-family: 'Mulish';
   color: #11223f;
@@ -236,7 +235,7 @@ header .logo {
   margin-right: 40px;
 }
 
-.rs-screen .all-vocations {
+.fourth-screen .all-vocations {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +243,7 @@ header .logo {
       flex-wrap: wrap;
 }
 
-.rs-screen .vocation {
+.fourth-screen .vocation {
   width: 250px;
   height: 190px;
   -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
@@ -252,14 +251,14 @@ header .logo {
   margin: 30px;
 }
 
-.rs-screen .vocation .voc-name {
+.fourth-screen .vocation .voc-name {
   font-size: 20px;
   color: #1967fa;
   font-family: 'Mulish';
   padding: 20px;
 }
 
-.rs-screen .vocation .voc-description {
+.fourth-screen .vocation .voc-description {
   font-size: 16px;
   font-family: 'Mulish';
   margin-left: 20px;
