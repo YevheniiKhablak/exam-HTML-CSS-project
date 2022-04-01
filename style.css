@@ -56,8 +56,6 @@ header .logo {
   background: #1968fc;
   width: 300px;
   height: 50px;
-  margin-left: 80px;
-  margin-bottom: 80px;
   border: 0px;
   color: #ffffff;
   font-size: 14px;
@@ -65,10 +63,16 @@ header .logo {
   line-height: 20px;
   letter-spacing: 1px;
   font-stretch: inherit;
+  margin: 0 auto 60px;
+  display: block;
 }
 
 .conteiner .illuststiion {
   width: 600px;
+  margin-left: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .second-screen {
@@ -161,7 +165,7 @@ header .logo {
   padding-left: 20px;
 }
 
-.fourth-screen .block-name {
+.fourth-screen .block-name, .sixts-screen .block-name {
   font-size: 30px;
   font-family: 'Mulish';
   color: #11223f;
@@ -169,7 +173,7 @@ header .logo {
   margin-bottom: 10px;
 }
 
-.fourth-screen .line {
+.fourth-screen .line, .sixts-screen .line {
   width: 80px;
   height: 2px;
   background: #1967fa;
@@ -177,13 +181,13 @@ header .logo {
   margin-bottom: 48px;
 }
 
-.fourth-screen .first-second-boxes {
+.fourth-screen .first-second-boxes, .sixts-screen .first-second-boxes {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.fourth-screen .box {
+.fourth-screen .box, .sixts-screen .box {
   width: 420px;
   height: 200px;
   -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
@@ -192,7 +196,7 @@ header .logo {
   margin-left: 60px;
 }
 
-.fourth-screen .box .content-box {
+.fourth-screen .box .content-box, .sixts-screen .box .content-box {
   background-color: #f3f7ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,18 +204,18 @@ header .logo {
   margin-bottom: 0px;
 }
 
-.fourth-screen .box .content-box .blue-box {
+.fourth-screen .box .content-box .blue-box, .sixts-screen .box .content-box .blue-box {
   width: 80px;
   height: 80px;
   background: #1967fa;
 }
 
-.fourth-screen .box .content-box .blue-box .icon {
+.fourth-screen .box .content-box .blue-box .icon, .sixts-screen .box .content-box .blue-box .icon {
   width: 40px;
   padding: 20px;
 }
 
-.fourth-screen .box .content-box .box-name {
+.fourth-screen .box .content-box .box-name, .sixts-screen .box .content-box .box-name {
   font-size: 20px;
   font-family: 'Mulish';
   margin: 20px;
@@ -219,13 +223,13 @@ header .logo {
   padding-top: 10px;
 }
 
-.fourth-screen .box .white-box {
+.fourth-screen .box .white-box, .sixts-screen .box .white-box {
   background: #ffffff;
   height: 120px;
   margin-top: 0px;
 }
 
-.fourth-screen .box .white-box .crisp {
+.fourth-screen .box .white-box .crisp, .sixts-screen .box .white-box .crisp {
   font-size: 16px;
   font-family: 'Mulish';
   color: #11223f;
@@ -235,7 +239,7 @@ header .logo {
   margin-right: 40px;
 }
 
-.fourth-screen .all-vocations {
+.fourth-screen .all-vocations, .sixts-screen .all-vocations {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,7 +247,7 @@ header .logo {
       flex-wrap: wrap;
 }
 
-.fourth-screen .vocation {
+.fourth-screen .vocation, .sixts-screen .vocation {
   width: 250px;
   height: 190px;
   -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
@@ -251,17 +255,240 @@ header .logo {
   margin: 30px;
 }
 
-.fourth-screen .vocation .voc-name {
+.fourth-screen .vocation .voc-name, .sixts-screen .vocation .voc-name {
   font-size: 20px;
   color: #1967fa;
   font-family: 'Mulish';
   padding: 20px;
 }
 
-.fourth-screen .vocation .voc-description {
+.fourth-screen .vocation .voc-description, .sixts-screen .vocation .voc-description {
   font-size: 16px;
   font-family: 'Mulish';
   margin-left: 20px;
   color: #11223f;
+}
+
+.fourth-screen .box-last, .sixts-screen .box-last {
+  width: 420px;
+  height: 80px;
+  -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
+  box-shadow: 8px 20px 40px 5px #acb8ce;
+  margin-bottom: 80px;
+  margin-left: 60px;
+}
+
+.fourth-screen .box-last .content-box, .sixts-screen .box-last .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.fourth-screen .box-last .content-box .blue-box, .sixts-screen .box-last .content-box .blue-box {
+  width: 80px;
+  height: 80px;
+  background: #1967fa;
+}
+
+.fourth-screen .box-last .content-box .blue-box .icon, .sixts-screen .box-last .content-box .blue-box .icon {
+  width: 40px;
+  padding: 20px;
+}
+
+.fourth-screen .box-last .content-box .box-name, .sixts-screen .box-last .content-box .box-name {
+  font-size: 20px;
+  font-family: 'Mulish';
+  margin: 20px;
+  color: #11223f;
+  padding-top: 10px;
+}
+
+.fives-screen {
+  background: #1968fc;
+  height: 380px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.fives-screen .part-two {
+  width: 640px;
+  margin: 0 auto;
+  height: 460px;
+  padding-top: 42px;
+}
+
+.fives-screen .part-two .dont-know {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Mulish';
+  color: #ffffff;
+  line-height: 2;
+  margin: 0;
+  vertical-align: middle;
+  padding: 0 60px 0 60px;
+}
+
+.fives-screen .part-two .schedule {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Mulish';
+  padding: 0 60px 0 60px;
+}
+
+.fives-screen .part-two .second-button {
+  width: 320px;
+  height: 50px;
+  background: #ffffff;
+  border: 0px;
+  color: #1967fa;
+  font-size: 16px;
+  font-family: 'Mulish';
+  margin: 60px;
+}
+
+.fives-screen .white-line {
+  width: 80px;
+  height: 2px;
+  background: #ffffff;
+  margin-left: 60px;
+  margin-bottom: 48px;
+}
+
+.sixts-screen {
+  margin-bottom: 60px;
+}
+
+.sixts-screen .form-name {
+  margin-left: 60px;
+  border: 0px;
+  background: #f3f7ff;
+  width: 450px;
+  height: 80px;
+  opacity: 100%;
+  font-size: 30px;
+  padding-left: 60px;
+  font-family: 'Mulish';
+  border-bottom: 2px solid blue;
+}
+
+.sixts-screen .form-email {
+  margin-left: 60px;
+  border: 0px;
+  background: #f3f7ff;
+  width: 450px;
+  height: 80px;
+  opacity: 100%;
+  font-size: 30px;
+  padding-left: 60px;
+  font-family: 'Mulish';
+  border-bottom: 2px solid blue;
+}
+
+.sixts-screen .form-massege {
+  margin-left: 60px;
+  border: 0px;
+  background: #f3f7ff;
+  width: 450px;
+  height: 160px;
+  opacity: 100%;
+  font-size: 30px;
+  padding-left: 60px;
+  font-family: 'Mulish';
+  border-bottom: 2px solid blue;
+  margin-bottom: 30px;
+}
+
+.sixts-screen .long-line {
+  width: 450px;
+  height: 2px;
+  background: #1967fa;
+  margin-left: 120px;
+  margin-bottom: 30px;
+}
+
+.sixts-screen .primary-button-rside {
+  background: #1968fc;
+  width: 300px;
+  height: 50px;
+  margin-left: 270px;
+  margin-bottom: 80px;
+  border: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Mulish', sans-serif;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-stretch: inherit;
+}
+
+.sixts-screen .google-map {
+  width: 800px;
+  height: 400px;
+  margin-bottom: 120px;
+}
+
+.footer-region {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.footer-region .footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-region .mini-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.footer-region .footer-description {
+  font-size: 24px;
+  font-family: 'Mulish';
+  color: #1968fc;
+  background: #f3f7ff;
+  padding: 25px;
+  margin: 0;
+}
+
+.footer-region .social-networks {
+  margin-left: 280px;
+}
+
+.footer-region .social-networks .facebook {
+  height: 50px;
+  padding: 20px;
+}
+
+.footer-region .social-networks .instagram {
+  height: 50px;
+  padding: 0px 0px 20px;
+}
+
+.links {
+  margin-bottom: 60px;
+}
+
+.links .link {
+  text-decoration: none;
+  margin: 35px;
+  font-size: 16px;
+  font-family: 'Mulish';
+  color: #172b4d;
+}
+
+.links .funny-man {
+  height: 80px;
+  position: absolute;
+  margin-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */

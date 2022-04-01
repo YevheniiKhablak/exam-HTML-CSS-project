@@ -59,8 +59,6 @@ header {
         background: #1968fc;
         width: 300px;
         height: 50px;
-        margin-left: 80px;
-        margin-bottom: 80px;
         border: 0px;
         color: #ffffff;
         font-size: 14px;
@@ -68,10 +66,16 @@ header {
         line-height: 20px;
         letter-spacing: 1px;
         font-stretch: inherit;
+        margin: 0 auto 60px;
+        display: block;
     }
 
     .illuststiion {
-        width: 600px;        
+        width: 600px;     
+        margin-left: 160px;   
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }    
 }
 
@@ -157,13 +161,14 @@ header {
     }
 }
 
-.fourth-screen {
+.fourth-screen, .sixts-screen {
    .block-name {
     font-size: 30px;
     font-family: 'Mulish';
     color: #11223f;
     margin-left: 60px;
     margin-bottom: 10px;
+    
    }
    .line {
        width: 80px;
@@ -249,8 +254,223 @@ header {
         margin-left: 20px;
         color: #11223f;
        }
-
-       
-
    }
+   .box-last {
+    width: 420px;
+    height: 80px;
+    -webkit-box-shadow: 8px 20px 40px 5px #acb8ce;
+    box-shadow: 8px 20px 40px 5px #acb8ce;
+    margin-bottom: 80px;
+    margin-left: 60px;
+
+    
+    .content-box {
+        
+        display: flex;
+        margin-bottom: 0px;
+
+           .blue-box {
+               width: 80px;
+               height: 80px;
+               background:  #1967fa;
+
+               .icon {
+                width: 40px;
+                padding: 20px;
+               }
+           }
+           .box-name {
+               font-size: 20px;
+               font-family: 'Mulish';
+               margin: 20px;
+               color: #11223f;
+               padding-top: 10px;
+           }
+       }
+    
+   }
+}
+
+.fives-screen {
+    background: #1968fc;
+    height: 380px;
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+    .part-two {
+        width: 640px;
+        margin: 0 auto;
+        height: 460px;
+        padding-top: 42px;
+
+        .dont-know {
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Mulish';
+            color: #ffffff;
+            line-height: 2;
+            margin: 0;
+            vertical-align: middle;
+            padding: 0 60px 0 60px;
+        }
+
+        .schedule {
+            color: #ffffff;
+            font-size: 20px;
+            font-family: 'Mulish';
+            padding: 0 60px 0 60px;
+        }
+
+        .second-button {
+            width: 320px;
+            height: 50px;
+            background: #ffffff;
+            border: 0px;
+            color: #1967fa;
+            font-size: 16px;
+            font-family: 'Mulish';
+            margin: 60px;
+        }
+    }
+    .white-line {
+        width: 80px;
+       height: 2px;
+       background: #ffffff;
+       margin-left: 60px;
+       margin-bottom: 48px;
+    }
+}
+
+.sixts-screen {
+     margin-bottom: 60px;
+    .form-name {
+        margin-left: 60px;
+        border: 0px;
+        background: #f3f7ff;
+        width: 450px;
+        height: 80px;
+        opacity: 100%;
+        font-size: 30px;
+        padding-left: 60px;
+        font-family: 'Mulish';
+        border-bottom: 2px solid blue;
+    }
+
+    .form-email {
+        margin-left: 60px;
+        border: 0px;
+        background: #f3f7ff;
+        width: 450px;
+        height: 80px;
+        opacity: 100%;
+        font-size: 30px;
+        padding-left: 60px;
+        font-family: 'Mulish';
+        border-bottom: 2px solid blue;
+    }
+
+    .form-massege {
+        margin-left: 60px;
+        border: 0px;
+        background: #f3f7ff;
+        width: 450px;
+        height: 160px;
+        opacity: 100%;
+        font-size: 30px;
+        padding-left: 60px;
+        font-family: 'Mulish';
+        border-bottom: 2px solid blue;
+        margin-bottom: 30px;
+    }
+
+    .long-line {
+            width: 450px;
+            height: 2px;
+            background: #1967fa;
+            margin-left: 120px;
+            margin-bottom: 30px;
+    }
+
+    .primary-button-rside  {
+        background: #1968fc;
+        width: 300px;
+        height: 50px;
+        margin-left: 270px;
+        margin-bottom: 80px;
+        border: 0px;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Mulish', sans-serif;
+        line-height: 20px;
+        letter-spacing: 1px;
+        font-stretch: inherit;
+    }
+
+    .google-map {
+        width: 800px;
+        height: 400px;
+        margin-bottom: 120px;
+    }
+    
+}
+
+
+
+.footer-region {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .footer-logo {
+        display: flex;
+    }
+
+    .mini-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-description {
+        font-size: 24px;
+        font-family: 'Mulish';
+        color: #1968fc;
+        background: #f3f7ff;
+        padding: 25px;
+        margin: 0;
+    }
+
+    .social-networks {
+        margin-left: 280px;
+
+        .facebook {
+            height: 50px;
+            padding: 20px;
+        }
+        .instagram {
+            height: 50px;
+            padding: 0px 0px 20px;
+        }
+
+    }
+
+    
+
+}
+
+.links {
+    .link {
+        text-decoration: none;
+        margin: 35px;
+        font-size: 16px;
+        font-family: 'Mulish';
+        color: #172b4d;
+    }
+    margin-bottom: 60px;
+    .funny-man {
+        height: 80px;
+    position: absolute;
+    margin-left: 50px;
+    }
 }
